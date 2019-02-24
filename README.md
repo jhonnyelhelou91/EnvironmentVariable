@@ -28,7 +28,7 @@ Adds Repository details to user environment variables.
 </details>
 <details>
    <summary>Specify details</summary>
-   <p>Set-Repository-EnvVariable -Name 'RepositoryName' -RemoteUrl 'https://github.com/jhonnyelhelou91/EnvironmenVariables.git' -LocalPath 'C:\git\PowerShell\EnvironmentHelpers\'</p>
+   <p>Set-Repository-EnvVariable -Name 'RepositoryName' -RemoteUrl 'https://github.com/jhonnyelhelou91/EnvironmentVariable.git' -LocalPath 'C:\git\PowerShell\EnvironmentHelpers\'</p>
 </details>
 
 
