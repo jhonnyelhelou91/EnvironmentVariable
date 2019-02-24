@@ -19,9 +19,9 @@ PowerShell Helper scripts to add/update/remove environment helpers for aspnet co
 * Create the user profile if it does not exist <br />`If (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }`
 * Import the module in the PowerShell profile <br />`Import-Module -Path script_directory -ErrorAction SilentlyContinue`
 
-### Examples
+# Examples
 
-#### Set-Repository-EnvVariable Examples
+## Set-Repository-EnvVariable Examples
 Adds Repository details to user environment variables.
 <details>
    <summary>Prompt for details</summary>
@@ -33,7 +33,7 @@ Adds Repository details to user environment variables.
 </details>
 
 
-#### Set-AspNetCore-EnvVariable Examples
+## Set-AspNetCore-EnvVariable Examples
 Set the *ASPNETCORE_ENVIRONMENT* environment variable.
 <details>
    <summary>Set to default</summary>
@@ -45,7 +45,7 @@ Set the *ASPNETCORE_ENVIRONMENT* environment variable.
 </details>
 
 
-#### Set-EnvVariable Examples
+## Set-EnvVariable Examples
 Create or Update environment variable.
 <details>
    <summary>Prompt for details</summary>
@@ -65,7 +65,7 @@ Create or Update environment variable.
 </details>
 
 
-#### Set-BuildPath-EnvVariable Examples
+## Set-BuildPath-EnvVariable Examples
 Set the *Dev.MSBuildPath* environment variable.
 <details>
    <summary>Set to default (Path for Build Tools 2017)</summary>
