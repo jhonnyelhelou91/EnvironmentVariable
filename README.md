@@ -8,7 +8,7 @@ PowerShell Helper scripts to add/update/remove environment helpers for aspnet co
 * Open Command Line or PowerShell (*Window + X, A*)
 * If you opened Command Prompt, then type *powershell* in order to use PowerShell commands
 * Navigate to the scripts directory <br />`cd your_directory`
-* Type <br />`Import-Module .\EnvVariableHelpers.psm1`
+* Type <br />`Import-Module .\EnvironmentVariables.psm1`
 * Now you can use the methods from your PowerShell session
 
 ### Adding Script to Profile [Optional]
@@ -28,7 +28,7 @@ Adds Repository details to user environment variables.
 </details>
 <details>
    <summary>Specify details</summary>
-   <p>Set-Repository-EnvVariable -Name 'RepositoryName' -RemoteUrl 'https://github.com/jhonnyelhelou91/EnvironmentVariable.git' -LocalPath 'C:\git\PowerShell\EnvironmentHelpers\'</p>
+   <p>Set-Repository-EnvVariable -Name 'RepositoryName' -RemoteUrl 'https://github.com/jhonnyelhelou91/EnvironmentVariables.git' -LocalPath 'C:\git\PowerShell\EnvironmentHelpers\'</p>
 </details>
 
 
