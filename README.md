@@ -13,6 +13,7 @@ PowerShell Helper scripts to add/update/remove environment helpers for aspnet co
 
 ### Adding Script to Profile [Optional]
 
+* Enable execution policy using PowerShell Admin <br /> `Set-ExecutionPolicy Unrestricted`
 * Navigate to the profile path <br />`cd (Split-Path -parent $PROFILE)`
 * Open the location in Explorer <br />`ii .`
 * Create the user profile if it does not exist <br />`If (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }`
