@@ -38,6 +38,8 @@ Param(
         [Environment]::SetEnvironmentVariable($variable.name, $null, [System.EnvironmentVariableTarget]::User);
 		Write-Host "Environment Variable $($variable.name) removed";
     }
+    #Refresh environment variables
+    RefreshEnv;
 }
 function Set-EnvVariable {
 Param(
@@ -69,6 +71,8 @@ Param(
 	}
 	Write-Host "Env Variable $name was set to $value"
 	[Environment]::SetEnvironmentVariable($name, $value, $target);
+    	#Refresh environment variables
+    	RefreshEnv;
 }
 function Set-BuildPath-EnvVariable {
 Param(
